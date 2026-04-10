@@ -36,6 +36,12 @@
           "type": "separator",
           "settings": {}
         },
+        "liquid_X6FBef": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .mkb-ratingline{\n    display:flex;\n    align-items:center;\n    justify-content:space-between;\n    gap:12px;\n    flex-wrap:wrap;\n    margin:10px 0 14px;\n  }\n  .mkb-rating-left{\n    display:flex;\n    align-items:center;\n    gap:10px;\n    flex-wrap:wrap;\n  }\n  .mkb-stars{\n    font-weight:900;\n    letter-spacing:1px;\n    font-size:14px;\n    line-height:1;\n  }\n  .mkb-score{\n    font-weight:900;\n    font-size:14px;\n  }\n  .mkb-count{\n    opacity:.7;\n    font-size:14px;\n  }\n  .mkb-badge{\n    font-size:12px;\n    padding:4px 8px;\n    border-radius:999px;\n    border:1px solid rgba(0,0,0,.10);\n    opacity:.85;\n    line-height:1;\n  }\n  .mkb-reviews-link{\n    font-size:14px;\n    font-weight:800;\n    text-decoration:none;\n    border-bottom:1px solid rgba(0,0,0,.35);\n    padding-bottom:2px;\n    opacity:.9;\n  }\n  .mkb-reviews-link:hover{opacity:1}\n  @media (max-width: 480px){\n    .mkb-ratingline{align-items:flex-start}\n    .mkb-reviews-link{margin-top:2px}\n  }\n</style>\n\n<div class=\"mkb-ratingline\">\n  <div class=\"mkb-rating-left\">\n    <span class=\"mkb-stars\" aria-label=\"Note clients\">★★★★★</span>\n    <span class=\"mkb-score\">4,8/5</span>\n    <span class=\"mkb-count\">(128 avis)</span>\n    <span class=\"mkb-badge\">✓ Clients vérifiés</span>\n  </div>\n\n  <!-- ✅ Le script global écoute ça -->\n  <a class=\"mkb-reviews-link\" data-mkb-scroll=\"reviews\" href=\"#mkb-avis\">Lire les avis</a>\n</div>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -85,6 +91,7 @@
         "price",
         "payment_terms",
         "separator",
+        "liquid_X6FBef",
         "description",
         "variant_picker",
         "quantity_selector",
